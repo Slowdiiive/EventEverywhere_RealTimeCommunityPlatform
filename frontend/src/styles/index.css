@@ -1,0 +1,37 @@
+/* Global styles for Element UI components */
+
+/* Modal backdrop style */
+.v-modal {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  opacity: 1 !important;
+}
+
+/* Dialog styles */
+.el-dialog {
+  background: rgba(255, 255, 255, 0.2) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border-radius: 16px !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.el-dialog__header {
+  padding: 20px !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.el-dialog__body {
+  padding: 20px !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: #333 !important;
+}
+
+.el-dialog__footer {
+  padding: 15px 20px !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+} 
